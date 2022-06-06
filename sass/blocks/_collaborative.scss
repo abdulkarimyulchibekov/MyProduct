@@ -1,0 +1,66 @@
+.collaborative {
+  background-image: url("../../images/documents/image-folder/amico.png");
+  background-repeat: no-repeat;
+  background-size: 542px 451px;
+  background-position: calc(50% + 300px) calc(50% + 30px);
+}
+
+.collaborative__inner {
+  width: 100%;
+  max-width: 486px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.collaborative__top {
+  margin-bottom: 30px;
+}
+
+.collaborative__desc {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+}
+
+.collaborative__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.collaborative__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+.collaborative__middle {
+  margin-bottom: 25px;
+}
+
+.collaborative__subheader {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin-bottom: 12px;
+}
+
+.collaborative__bottom {}
+
+@include max-width(520px, 320px) {
+  .collaborative__inner {
+    padding-top: 437px;
+  }
+
+  .collaborative {
+    background-size: 350px 292px;
+    background-position: calc(50%) calc(50% - 250px);
+  }
+}

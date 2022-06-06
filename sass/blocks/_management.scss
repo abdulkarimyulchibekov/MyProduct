@@ -1,0 +1,93 @@
+.management {
+  background-image: url("../../images/documents/amico.png");
+  background-repeat: no-repeat;
+  background-size: 540px 473px;
+  background-position: calc(50% + 300px) calc(50% - 50px);
+}
+
+.management__inner {
+  padding: 189px 0;
+}
+
+.container {}
+
+.management__header {
+  margin-bottom: 131px;
+}
+
+.management__desc {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+
+.management__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+  margin: 0;
+}
+
+.top {
+  margin-bottom: 25px;
+}
+
+.top__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.top__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+  max-width: 486px;
+  color: #22343D;
+  margin: 0;
+}
+
+.bottom {}
+
+.bottom__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.bottom__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  width: 100%;
+  max-width: 486px;
+  margin: 0;
+}
+
+@include max-width(520px, 320px) {
+  .management {
+    background-size: 349px 306px;
+    background-position: calc(50%) calc(50% - 200px);
+  }
+
+  .management__inner {
+    padding-top: 450px;
+  }
+
+  .management__header {
+    margin-bottom: 16px;
+  }
+}

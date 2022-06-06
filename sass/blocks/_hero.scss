@@ -1,0 +1,107 @@
+.hero {
+  padding-top: 145px;
+  padding-bottom: 145px;
+
+  background-image: url("../../images/social-media/amico.png");
+  background-repeat: no-repeat;
+  background-size: 600px 556px;
+  background-position: calc(50% + 300px) calc(50%);
+}
+
+.hero__inner {
+  width: 100%;
+  max-width: 458px;
+}
+
+.hero__header {
+  width: 100%;
+  max-width: 377px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343D;
+  margin-bottom: 18px;
+}
+
+.hero__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343D;
+  margin-bottom: 45px;
+}
+
+.hero__group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 369px;
+}
+
+.hero__btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 4px;
+  padding: 15px 41px;
+  border: 0;
+  margin-right: 30px;
+}
+
+.hero__link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #02897A;
+}
+
+.hero__img {}
+
+@include max-width(520px,320px) {
+  .hero {
+    padding-top: 351px;
+    background-size: 338px 311px;
+    background-position: top center;
+  }
+
+  .hero__inner {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__header {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    color: #22343D;
+    margin-bottom: 16px;
+  }
+
+  .hero__text {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+    margin-bottom: 32px;
+  }
+
+  .hero__group {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

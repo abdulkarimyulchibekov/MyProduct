@@ -1,0 +1,84 @@
+.customer {
+  background-image: url("../../images/search-engines/amico.png");
+  background-repeat: no-repeat;
+  background-size: 543px 500px;
+  background-position: calc(50% - 300px) calc(50% - 50px);
+}
+
+.customer__inner {
+  padding-bottom: 168px;
+  padding-top: 100px;
+  width: 100%;
+  max-width: 486px;
+  margin-left: auto;
+}
+
+.customer__desc {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+
+.customer__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.customer__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 486px;
+}
+
+.customer__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.customer__item {
+  display: flex;
+  align-items: center;
+}
+
+.customer__img {
+  margin-right: 30px;
+}
+
+.customer__content {
+  width: 100%;
+  max-width: 385px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0;
+}
+
+.customer__content--little {
+  max-width: 365px;
+}
+
+
+@include max-width(520px, 320px) {
+  .customer__inner {
+    padding-top: 467px;
+  }
+
+
+  .customer {
+    background-size: 350px 320px;
+    background-position: calc(50%) calc(50% - 250px);
+  }
+}
