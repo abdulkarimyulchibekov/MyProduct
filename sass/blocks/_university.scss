@@ -1,0 +1,85 @@
+.site-university {}
+
+.university {
+  background-image: url("../../images/pricing/amico.png");
+  background-repeat: no-repeat;
+  background-size: 528px 393px;
+  background-position: calc(50% - 330px) calc(50% + 50px);
+}
+
+.university__inner {
+  padding: 150px 0;
+}
+
+.university__title {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+  margin-bottom: 56px;
+}
+
+.university__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  max-width: 543px;
+  margin-left: auto;
+}
+
+.university__item {
+  margin-bottom: 32px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.university__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.university__subheader {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #22343D;
+}
+
+.university__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.university__img {
+  margin-right: 15px;
+}
+
+@include max-width(520px,320px) {
+  .university {
+    background-image: url("../../images/pricing/Image.png");
+    background-repeat: no-repeat;
+    background-size: 352px 288px;
+    background-position: calc(50%) calc(50% - 175px);
+  }
+  
+
+  .university__title {
+    margin-bottom: 320px;
+  }
+
+  .university__text {
+    width: 100%;
+    max-width: 335px;
+  }
+}

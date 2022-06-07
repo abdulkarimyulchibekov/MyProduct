@@ -1,0 +1,55 @@
+.enterprise {
+  background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
+}
+
+.enterprise__inner {
+  padding: 150px 0;
+}
+
+.enterprise__desc {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.enterprise__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.enterprise__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343D;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.enterprise__button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 8px;
+  border: 0;
+  padding: 11px 18px;
+}
+
+.enterprise__box {
+  width: 100%;
+  max-width: 224px;
+  margin-left: auto;
+  margin-right: auto;
+}

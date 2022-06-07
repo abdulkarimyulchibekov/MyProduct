@@ -98,6 +98,24 @@
   }
 }
 
+.strategy__text3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.card-title--active {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #02897A;
+}
+
+.carousel {
+  margin-bottom: 64px;
+}
+
 @include max-width(520px, 320px) {
   .strategy__title {
     font-weight: 700;

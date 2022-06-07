@@ -2,6 +2,16 @@
   padding: 150px 0;
 }
 
+.price__header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
 .price__title {
   font-weight: 700;
   font-size: 34px;
@@ -9,6 +19,10 @@
   color: #22343D;
   text-align: center;
   margin: 0;
+}
+
+.price2 {
+  padding-top: 50px;
 }
 
 .price__text {
@@ -182,6 +196,8 @@
 
     &__item {
       margin-bottom: 32px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
