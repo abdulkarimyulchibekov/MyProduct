@@ -50,6 +50,14 @@
   padding: 15px 41px;
   border: 0;
   margin-right: 30px;
+  border: transparent 1px solid;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border: #02897A 1px solid;
+    color: #02897A;
+    background-color: #fff;
+  }
 }
 
 .hero__link {

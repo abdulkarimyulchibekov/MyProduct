@@ -44,16 +44,24 @@
 }
 
 .free__item {
-  background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  width: 100%;
-  max-width: 323px;
-
-  &:nth-child(2) {
-    background-color: #02897A;
-  }
+  width: 240px;
+  transition: all 0.3s ease;
 }
+
+.free__label {
+  width: 100%;
+}
+
+.free__input:checked ~ .free__label {
+  background-color: #02897A;
+}
+
+.free__input:checked ~ .free__label--big {
+  background-color: #02897A !important;
+}
+
 
 .free__header {
   font-weight: 700;
@@ -66,6 +74,10 @@
   padding-top: 24px;
 }
 
+.free__input:checked ~ .free__label > .free__header {
+  color: #fff;
+}
+
 .free__desc {
   font-weight: 400;
   font-size: 16px;
@@ -73,6 +85,10 @@
   color: #22343D;
   margin: 0;
   text-align: center;
+}
+
+.free__input:checked ~ .free__label > .free__desc {
+  color: #fff;
 }
 
 .free__price {
@@ -83,6 +99,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .free__number {
   font-weight: 700;
@@ -95,9 +112,17 @@
   margin-right: 8px;
 }
 
+.free__input:checked ~ .free__label > .free__price > .free__number {
+  color: #fff;
+}
+
 .free__box {
   display: flex;
   flex-direction: column;
+}
+
+.free__input:checked ~ .free__label > .free__price > .free__box > .free__currency {
+  color: #fff;
 }
 
 .free__currency {
@@ -108,6 +133,10 @@
   color: #02897A;
 }
 
+.free__input:checked ~ .free__currency {
+  color: #fff;
+}
+
 .free__time {
   font-weight: 400;
   font-size: 16px;
@@ -115,6 +144,11 @@
   letter-spacing: 0.1px;
   color: #AFAFAF;
   text-align: center;
+  width: 96px;
+}
+
+.free__input:checked ~ .free__label > .free__text {
+  color: #fff;
 }
 
 .free__text {
@@ -153,42 +187,19 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #fff;
   background: #02897A;
   border-radius: 8px;
   border: 0;
   padding: 11px 19px;
+  border: transparent 1px solid;
+  transition: all 0.3s ease;
 }
 
-.free__header--active {
-  color: #FFFFFF;
-}
-
-.free__desc--active {
-  color: #FFFFFF;
-}
-
-.free__number--active {
-  color: #FFFFFF;
-}
-
-.free__currency--active {
-  color: #FFFFFF;
-}
-
-.free__time--active {
-  color: #FFFFFF;
-}
-
-.free__text--active {
-  color: #FFFFFF;
-}
-
-.free__button--active {
+.free__input:checked ~ .free__label > .free__box2 > .free__button {
   background-color: #fff;
   color: #02897A;
 }
-
 
 @include max-width(520px, 320px) {
   .free {

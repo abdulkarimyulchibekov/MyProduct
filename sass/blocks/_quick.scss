@@ -101,7 +101,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 216px;
+  max-width: 220px;
 }
 
 .quick__button {
@@ -114,6 +114,14 @@
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
+  border: transparent 1px solid;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border: #02897A 1px solid;
+    color: #02897A;
+    background-color: #fff;
+  }
 }
 
 @include max-width(520px, 320px) {

@@ -37,6 +37,14 @@
   padding: 10px 34px;
   border: 0;
   display: inline-block;
+  border: transparent 1px solid;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border: transparent 1px solid;
+    color: #fff;
+    background-color: #02897A;
+  }
 }
 
 @include max-width(520px, 320px) {

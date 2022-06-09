@@ -12,12 +12,14 @@
 			<div class="header">
 				<div class="container">
 					<div class="header__inner">
-						<img src="./images/logo.svg" alt="site logo" class="header__logo" />
+						<a href="./index.html" class="header__link-main">
+							<img src="./images/logo.svg" alt="site logo" class="header__logo" />
+						</a>
 
 						<nav class="nav">
 							<ul class="nav__list">
 								<li class="nav__item">
-									<a href="./index.html" class="nav__link nav__link--bold">
+									<a href="./index.html" class="nav__link">
 										Product
 									</a>
 								</li>
@@ -25,7 +27,7 @@
 									<a href="./customer.html" class="nav__link"> Customers </a>
 								</li>
 								<li class="nav__item">
-									<a href="./pricing.html" class="nav__link"> Pricing </a>
+									<a href="./pricing.html" class="nav__link nav__link--bold"> Pricing </a>
 								</li>
 								<li class="nav__item">
 									<a href="#" class="nav__link"> Resources </a>
@@ -57,100 +59,99 @@
 			<section class="site-price">
 				<div class="price">
 					<div class="container">
-						<div class="price__inner price2">
-							<p class="price__header">PRICING</p>
-							<h2 class="price__title">Let’s get some real work done here.</h2>
-							<p class="price__text">
-								Prodict is your perfect solution for working. Get started now
-								for free
-							</p>
-
-							<ol class="free">
-								<li class="free__item">
-									<h3 class="free__header">Free</h3>
-
-									<p class="free__desc">Brief price description</p>
-
-									<div class="free__price">
-										<span class="free__number"> 0 </span>
-
-										<div class="free__box">
-											<span class="free__currency"> $ </span>
-
-											<span class="free__time"> Per / month </span>
-										</div>
-									</div>
-
-									<p class="free__text text1">Only 2 Operators</p>
-									<p class="free__text text2">Notifications</p>
-									<p class="free__text text3">Landing Pages</p>
-
-									<div class="free__box2">
-										<button class="free__button">Order Now</button>
-									</div>
-								</li>
-
-								<li class="free__item">
-									<h3 class="free__header free__header--active">Standard</h3>
-
-									<p class="free__desc free__desc--active">
-										Brief price description
-									</p>
-
-									<div class="free__price">
-										<span class="free__number free__number--active"> 5 </span>
-
-										<div class="free__box">
-											<span class="free__currency free__currency--active">
-												$
-											</span>
-
-											<span class="free__time free__time--active">
-												Per / month
-											</span>
-										</div>
-									</div>
-
-									<p class="free__text free__text--active text1">
-										5+ Operators
-									</p>
-									<p class="free__text free__text--active text2">
-										Notifications
-									</p>
-									<p class="free__text free__text--active text3">
-										Landing Pages
-									</p>
-
-									<div class="free__box2">
-										<button class="free__button free__button--active">
-											Order Now
-										</button>
-									</div>
-								</li>
-
-								<li class="free__item">
-									<h3 class="free__header">Premium</h3>
-
-									<p class="free__desc">Brief price description</p>
-
-									<div class="free__price">
-										<span class="free__number"> 10 </span>
-
-										<div class="free__box">
-											<span class="free__currency"> $ </span>
-
-											<span class="free__time"> Per / month </span>
-										</div>
-									</div>
-
-									<p class="free__text text1">10+ Operators</p>
-									<p class="free__text text2">Notifications</p>
-									<p class="free__text text3">Landing Pages</p>
-
-									<div class="free__box2">
-										<button class="free__button">Order Now</button>
-									</div>
-								</li>
+						<div class="price__inner">
+							<h2 class="price__title">Price Table</h2>
+							<p class="price__text">We offer competitive price</p>
+	
+							<form action="https://echo.htmlacademy.ru/courses" method="post" class="price__form">
+								<ol class="free">
+									<li class="free__item">
+										<input class="free__input visually-hidden" type="radio" name="free" value="free" id="4">
+	
+										<label for="4" class="free__label">
+											<h3 class="free__header">Free</h3>
+	
+											<p class="free__desc">Brief price description</p>
+	
+											<div class="free__price">
+												<span class="free__number"> 0 </span>
+	
+												<div class="free__box">
+													<span class="free__currency"> $ </span>
+	
+													<span class="free__time"> Per / month </span>
+												</div>
+											</div>
+	
+											<p class="free__text text1">Only 2 Operators</p>
+											<p class="free__text text2">Notifications</p>
+											<p class="free__text text3">Landing Pages</p>
+	
+											<div class="free__box2">
+												<button type="submit" class="free__button">Order Now</button>
+											</div>
+										</label>
+	
+									</li>
+	
+									<li class="free__item">
+										<input class="free__input visually-hidden" type="radio" name="free" value="standart" id="5">
+	
+										<label for="5" class="free__label">
+											<h3 class="free__header">Standard</h3>
+	
+											<p class="free__desc">Brief price description</p>
+	
+											<div class="free__price">
+												<span class="free__number"> 5 </span>
+	
+												<div class="free__box">
+													<span class="free__currency"> $ </span>
+	
+													<span class="free__time"> Per / month </span>
+												</div>
+											</div>
+	
+											<p class="free__text text1">5+ Operators</p>
+											<p class="free__text text2">Notifications</p>
+											<p class="free__text text3">Landing Pages</p>
+	
+											<div class="free__box2">
+												<button type="submit" class="free__button">Order Now</button>
+											</div>
+										</label>
+	
+									</li>
+	
+									<li class="free__item">
+										<input class="free__input visually-hidden" type="radio" name="free" value="Premium" id="6">
+										
+										<label for="6" class="free__label free__label--big">
+											<h3 class="free__header">Premium</h3>
+	
+											<p class="free__desc">Brief price description</p>
+	
+											<div class="free__price">
+												<span class="free__number"> 10 </span>
+	
+												<div class="free__box">
+													<span class="free__currency"> $ </span>
+	
+													<span class="free__time"> Per / month </span>
+												</div>
+											</div>
+	
+											<p class="free__text text1">10+ Operators</p>
+											<p class="free__text text2">Notifications</p>
+											<p class="free__text text3">Landing Pages</p>
+	
+											<div class="free__box2">
+												<button type="submit" class="free__button">Order Now</button>
+											</div>
+										</label>
+	
+									</li>
+							</form>
 							</ol>
 						</div>
 					</div>

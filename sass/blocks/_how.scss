@@ -89,6 +89,14 @@
   background: #02897A;
   border-radius: 8px;
   padding: 11px 18px;
+  border: transparent 1px solid;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border: #02897A 1px solid;
+    color: #02897A;
+    background-color: #fff;
+  }
 }
 
 @include max-width(520px,320px) {

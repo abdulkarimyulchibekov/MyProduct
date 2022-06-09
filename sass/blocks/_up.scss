@@ -19,6 +19,7 @@
   max-width: 529px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .up__list {
@@ -73,6 +74,15 @@
   color: #FFFFFF;
   padding: 15px 32px;
   border: 0;
+  text-decoration: none;
+  border: transparent 1px solid;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border: #02897A 1px solid;
+    color: #02897A;
+    background-color: #fff;
+  }
 }
 
 @include max-width(520px,320px) {
