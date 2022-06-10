@@ -2522,10 +2522,16 @@ img {
 }
 
 .contact__iframe {
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   max-width: 871px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 871px;
   margin-bottom: 60px;
 }
 
@@ -2584,10 +2590,6 @@ img {
   border-radius: 35px;
   padding: 18px 38px;
   border: 0;
-}
-
-.img4, .img5, .img6 {
-  display: none;
 }
 
 .img7 {

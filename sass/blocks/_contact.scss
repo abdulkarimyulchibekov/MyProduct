@@ -35,10 +35,16 @@
 }
 
 .contact__iframe {
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   max-width: 871px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 871px;
   margin-bottom: 60px;
 }
 
@@ -99,9 +105,6 @@
   border: 0;
 }
 
-.img4 , .img5 , .img6 {
-  display: none;
-}
 
 .img7 {
   display: inline-block;
