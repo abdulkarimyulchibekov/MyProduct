@@ -1,0 +1,32 @@
+.story__inner {
+  padding: 100px 0;
+}
+
+.story__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+  text-align: center;
+}
+
+.story__desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  text-align: center;
+}
+
+@include max-width (520px,320px) {
+  .story__top , .story__bottom {
+    flex-direction: column;
+  }
+
+  .story__inner {
+    width: 100%;
+    max-width: 348px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

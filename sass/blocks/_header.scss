@@ -78,6 +78,44 @@
 @include max-width(520px,320px) {
   .nav {
     display: none;
+
+    &--open {
+      position: absolute;
+      width: 50%;
+      right: 0;
+      bottom: 0;
+      display: block;
+      background-color: #02897A;
+      top: 70px;
+    }
+  }
+
+  .nav--open .nav__list {
+    flex-direction: column;
+  }
+
+  .nav--open .nav__link {
+    display: inline-block;
+    margin: 20px;
+    color: #fff;
+  }
+
+  .nav--open .nav__item {
+    margin: 0;
+  }
+
+  .nav--open .nav__link--active {
+    background-color: #fff;
+    color: #02897A;
+  }
+
+  .nav--open .nav__link--button {
+    background-color: #fff;
+    color: #02897A;
+  }
+
+  .nav--open .nav__img {
+    display: none;
   }
 
   .header__burger {

@@ -131,4 +131,17 @@
   .strategy__item {
     border: 0;
   }
+
+  .carousel__content {
+    flex-direction: column !important;
+    width: 348px;
+  }
+
+  .card {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }

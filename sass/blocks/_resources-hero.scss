@@ -1,0 +1,115 @@
+.resources-hero {
+  background-image: url("../../images/resources/herobgi.png");
+  background-repeat: no-repeat;
+  background-size: 541px 482px;
+  background-position: calc(50% + 300px) calc(50%);
+}
+
+.resources-hero__inner {
+  padding: 77px 0;
+}
+
+.resources-hero__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 149%;
+  letter-spacing: -0.03em;
+  color: #22343D;
+  margin: 0;
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 24px;
+}
+
+.resources-hero__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #22343D;
+  margin: 0;
+  width: 100%;
+  max-width: 535px;
+  margin-bottom: 24px;
+}
+
+.resources-hero__form {
+  position: relative;
+  width: 100%;
+  max-width: 470px;
+}
+
+.resources-hero__input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #22343D;
+  border: 1px solid #EAEAEA;
+  border-radius: 100px;
+  margin-bottom: 24px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 27px;
+  padding-right: 265px;
+}
+
+.resources-hero__btn {
+  background: #02897A;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #fff;
+  border: 0;
+  padding: 15px 23px;
+  position: absolute;
+  top: 16px;
+  right: -16px;
+}
+
+.resources-hero__box {
+  display: flex;
+  align-items: center;
+}
+
+.resources-hero__img {
+  margin-right: 9px;
+}
+
+.resources-hero__desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #22343D;
+  margin: 0;
+}
+
+.resources-hero__text2 {
+  color: #02897A;
+}
+
+@include max-width(520px, 320px) {
+  .resources-hero {
+    background-image: url("../../images/resources/mobile.png");
+    background-repeat: no-repeat;
+    background-size: 359px 263px;
+    background-position: calc(50%) calc(50% + 300px);
+  }
+
+  .resources-hero__inner {
+    padding-bottom: 400px;
+  }
+
+  .resources-hero__title {
+    text-align: center;
+  }
+
+  .resources-hero__title {
+    text-align: center;
+    width: 100%;
+    max-width: 353px;
+  }
+}

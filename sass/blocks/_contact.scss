@@ -1,0 +1,126 @@
+.contact {}
+
+.contact__inner {
+  padding: 150px 0;
+}
+
+.contact__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin-bottom: 27px;
+}
+
+.contact__desc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #374754;
+  margin: 0;
+  margin-bottom: 65px;
+}
+
+.contact__box {
+  width: 100%;
+  max-width: 193px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 66px;
+}
+
+.contact__iframe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 871px;
+  margin-bottom: 60px;
+}
+
+.contact__form {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.contact__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.contact__input {
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+  width: 100%;
+  margin-bottom: 45px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 20px;
+}
+
+.contact__textarea {
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #22343D;
+  padding-top: 23px;
+  padding-left: 20px;
+  padding-bottom: 154px;
+  resize: none;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  margin-bottom: 45px;
+}
+
+.contact__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 35px;
+  padding: 18px 38px;
+  border: 0;
+}
+
+.img4 , .img5 , .img6 {
+  display: none;
+}
+
+.img7 {
+  display: inline-block;
+}
+
+.contact__link {
+  text-decoration: none;
+}
+
+@include max-width (520px, 320px) {
+  .contact__iframe {
+    width: 100%;
+  }
+
+  .contact__form {
+    width: 100%;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 20px;
+    padding: 0;
+  }
+}
