@@ -19,6 +19,11 @@ body {
   overflow-x: hidden;
 }
 
+.body--open {
+  overflow-y: hidden;
+  padding-right: 20px;
+}
+
 main {
   flex-grow: 1;
 }
